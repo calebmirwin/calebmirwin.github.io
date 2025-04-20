@@ -1,4 +1,8 @@
 title: Caleb Irwin
-#logo: assets/headshot.png
-#description: 
-theme: jekyll-theme-minimal
+about: TEST
+logo: assets/images/headshot.png
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+include:
+  - _includes/head-custom.html
