@@ -10,8 +10,8 @@
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="CS499 ePortfolio" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This personal ePortfolio was created for the CS-499 Capstone Project at Southern New Hampshire University (SNHU). It showcases my academic growth, technical skills, and professional development throughout the Computer Science program." />
-<meta property="og:description" content="This personal ePortfolio was created for the CS-499 Capstone Project at Southern New Hampshire University (SNHU). It showcases my academic growth, technical skills, and professional development throughout the Computer Science program." />
+<meta name="description" content="This personal ePortfolio was created for my CS-499 Capstone Project at Southern New Hampshire University (SNHU). It showcases my academic growth, technical skills, and professional development throughout the Computer Science program." />
+<meta property="og:description" content="This personal ePortfolio was created for my CS-499 Capstone Project at Southern New Hampshire University (SNHU). It showcases my academic growth, technical skills, and professional development throughout the Computer Science program." />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Caleb Irwin" />
@@ -19,10 +19,10 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CS499 ePortfolio" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"This personal ePortfolio was created for the CS-499 Capstone Project at Southern New Hampshire University (SNHU). It showcases my academic growth, technical skills, and professional development throughout the Computer Science program.","headline":"CS499 ePortfolio","name":"Caleb Irwin","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/headshot.png"}},"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"This personal ePortfolio was created for my CS-499 Capstone Project at Southern New Hampshire University (SNHU). It showcases my academic growth, technical skills, and professional development throughout the Computer Science program.","headline":"CS499 ePortfolio","name":"Caleb Irwin","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/headshot.png"}},"url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=86b40b6d6bc6afa3192db55fbd5f811a765fe24f">
+    <link rel="stylesheet" href="/assets/css/style.css?v=ad48b5a358ab0beb190bf37e95d22a05059aa80a">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -37,7 +37,7 @@
           <img src="/assets/images/headshot.png" alt="Logo" />
         
 
-        <p>This personal ePortfolio was created for the CS-499 Capstone Project at Southern New Hampshire University (SNHU). It showcases my academic growth, technical skills, and professional development throughout the Computer Science program.</p>
+        <p>This personal ePortfolio was created for my CS-499 Capstone Project at Southern New Hampshire University (SNHU). It showcases my academic growth, technical skills, and professional development throughout the Computer Science program.</p>
 
         
         <p class="view"><a href="https://github.com/calebmirwin/calebmirwin.github.io">View the Project on GitHub <small>calebmirwin/calebmirwin.github.io</small></a></p>
@@ -114,57 +114,58 @@
 <h2 id="software-design--engineering">Software Design &amp; Engineering</h2>
 <h3 id="artifact-1-smart-thermostat"><a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%201" class="btn">Artifact 1: Smart Thermostat</a></h3>
 
-<p><strong>Description:</strong> The original artifact is a smart thermostat program developed in December 2024 as the final project for CS-350: Emerging Systems Architectures and Technologies. It was built using the CC3220S LaunchPad. The original program simulated smart thermostat functionality by using UART for server communication, I2C to read temperature data, onboard buttons to adjust the setpoint, and an LED to indicate heat activation.</p>
+<p><strong>Description:</strong> The original artifact is a smart thermostat program developed in December 2024 for CS-350: <em>Emerging Systems Architectures and Technologies</em>. It was built using the CC3220S LaunchPad. The original program simulated smart thermostat functionality by using UART for server communication, I2C to read temperature data, onboard buttons to adjust the setpoint, and an LED to indicate heat activation.</p>
 
 <p><strong>Enhancement:</strong> This enhancement expanded the functionality of the original artifact by converting from NORTOS to TI-RTOS in order to support real-time scheduling and by replacing the UART interface with Wi-Fi-based two-way TCP socket communication, though UART was retained for debugging. The internet connectivity allowed for time synchronization with NTP servers to allow for implementation of daily setpoint scheduling. I also created a Python remote control application with a graphical user interface (GUI) to control the smart thermostat remotely.</p>
 
+<h4 id="python-remote-control---main-screen">Python Remote Control - Main Screen</h4>
 <p><a href="assets/images/RemoteControl_1.png" target="_blank">
   <img src="assets/images/RemoteControl_1.png" alt="Remote Main Screen &amp; Setpoint Adjustment" title="Remote Main Screen &amp; Setpoint Adjustment" style="display: block; margin: 0 auto 20px auto; max-width: 90%;" />
 </a></p>
 
+<h4 id="python-remote-control---schedule-screen">Python Remote Control - Schedule Screen</h4>
 <p><a href="assets/images/RemoteControl_2.png" target="_blank">
   <img src="assets/images/RemoteControl_2.png" alt="Remote Schedule Screen" title="Remote Schedule Screen" style="display: block; margin: 0 auto 20px auto; max-width: 90%;" />
 </a></p>
 
-<p>
-  <a href="https://github.com/calebmirwin/CS499/blob/main/Artifact%201/Irwin_CS499_SoftwareDesignandEngineering.pdf" class="button" style="margin-right: 10px;">Narrative</a>
-  <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%201/Original/Irwin_SmartThermostat" class="button" style="margin-right: 10px;">Original Artifact</a>
+<div class="button-row">
+  <a href="https://github.com/calebmirwin/CS499/blob/main/Artifact%201/Irwin_CS499_SoftwareDesignandEngineering.pdf" class="button">Full Narrative</a>
+  <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%201/Original/Irwin_SmartThermostat" class="button">Original Artifact</a>
   <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%201/Enhancement/Irwin_EnhancedSmartThermostat" class="button">Enhanced Artifact</a>
-</p>
+</div>
 
 <hr />
 <h2 id="algorithms--data-structures">Algorithms &amp; Data Structures</h2>
 <h3 id="artifact-2-abcu-advising-program"><a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%202" class="btn">Artifact 2: ABCU Advising Program</a></h3>
 
-<p><strong>Description:</strong> [Insert Text]</p>
+<p><strong>Description:</strong> The original artifact is an advising program from CS300: <em>Data Structures and Algorithms: Analysis and Design</em>, developed in February 2024. The program required that it import a list of courses from a CSV file, and have the functionality to display all courses in order or search for a specific course. I was required to construct the program using an array, hash table, or binary search tree (BST). Due to the need to frequently search and display courses in alphabetical order, I chose to implement a BST. The dataset provided for this project resulted in a balanced tree.</p>
 
-<p><strong>Enhancement:</strong> [Insert Text]</p>
+<p><strong>Enhancement:</strong> Although the original dataset resulted in a balanced tree, this is unlikely in a real-world scenario and any insertions or deletions could quickly result in an unbalanced tree. This enhancement improved the performance and reliability of the original advising program by refactoring its underlying data structure from a standard BST to an AVL tree, a self-balancing variant that ensures efficient operations even in worst-case scenarios. To implement this, I developed a <code class="language-plaintext highlighter-rouge">rebalance()</code> method and supporting helper methods such as <code class="language-plaintext highlighter-rouge">leftRotate()</code>, <code class="language-plaintext highlighter-rouge">rightRotate()</code>, <code class="language-plaintext highlighter-rouge">height()</code>, and <code class="language-plaintext highlighter-rouge">updateHeight()</code> to maintain tree balance dynamically after insertions and deletions. A flowchart outlining the logic of the <code class="language-plaintext highlighter-rouge">rebalance()</code> method is depicted below. I also transitioned the program to use smart pointers to improve memory safety and reduce the risk of leaks or dangling references, as well as incorporated structured exception handling to replace basic output error messages with more robust error management.</p>
 
-<h3 id="reblance-method---flowchart">reblance() Method - Flowchart</h3>
-
+<h4 id="reblance-method---flowchart">reblance() Method - Flowchart</h4>
 <p><a href="assets/images/AVLTreeFlowchart.png" target="_blank">
   <img src="assets/images/AVLTreeFlowchart.png" alt="Flowchart of AVL Tree Rebalance() Method" title="Flowchart of AVL Tree Rebalance() Method" style="display: block; margin: 0 auto 20px auto; max-width: 90%;" />
 </a></p>
 
-<p>
-  <a href="https://github.com/calebmirwin/CS499/blob/main/Artifact%202/Irwin_CS499_AlgorithmsAndDataStructures.pdf" class="button" style="margin-right: 10px;">Narrative</a>
-  <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%202/Original/Irwin_ABCUAdvisingProgram" class="button" style="margin-right: 10px;">Original Artifact</a>
+<div class="button-row">
+  <a href="https://github.com/calebmirwin/CS499/blob/main/Artifact%202/Irwin_CS499_AlgorithmsAndDataStructures.pdf" class="button">Full Narrative</a>
+  <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%202/Original/Irwin_ABCUAdvisingProgram" class="button">Original Artifact</a>
   <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%202/Enhanced/Irwin_EnhancedABCUAdvisingProgram" class="button">Enhanced Artifact</a>
-</p>
+</div>
 
 <hr />
 <h2 id="databases">Databases</h2>
 <h3 id="artifact-3-investment-app"><a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%203" class="btn">Artifact 3: Investment App</a></h3>
 
-<p><strong>Description:</strong> [Insert Text]</p>
+<p><strong>Description:</strong> The original artifact is an investment application from CS410: <em>Software Reverse Engineering</em>, developed in February 2025. The program required that I reverse-engineer a compiled binary back into C++ source code and then identify and address its security vulnerabilities. One of the biggest issues with the original program was its heavy use of hardcoded data. This is not only a security concern, but also limits the programs maintainability and scalability. The program lacked any form of persistent storage or user authentication, and it stored plaintext client information and passwords directly in the source code.</p>
 
-<p><strong>Enhancement:</strong> [Insert Text]</p>
+<p><strong>Enhancement:</strong> This enhancement improved the original application by replacing hardcoded data with a secure and scalable database. The program was refactored from C++ to Python in order to simplify integration with MongoDB and bcrypt. The updated design implements hashed and salted passwords and role-based access controls (RBAC) to ensure that only authorized users can access or modify sensitive information. A dynamic menu system was used to adjust the menu options based on the logged in user’s roles.</p>
 
-<p>
-  <a href="https://github.com/calebmirwin/CS499/blob/main/Artifact%203/Irwin_CS499_Databases.pdf" class="button" style="margin-right: 10px;">Narrative</a>
-  <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%203/Original" class="button" style="margin-right: 10px;">Original Artifact</a>
+<div class="button-row">
+  <a href="https://github.com/calebmirwin/CS499/blob/main/Artifact%203/Irwin_CS499_Databases.pdf" class="button">Full Narrative</a>
+  <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%203/Original" class="button">Original Artifact</a>
   <a href="https://github.com/calebmirwin/CS499/tree/main/Artifact%203/Enhancement" class="button">Enhanced Artifact</a>
-</p>
+</div>
 
 
       </section>
